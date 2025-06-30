@@ -49,10 +49,7 @@ pipeline {
                  kubectl apply -f backend-deployment.yml
                  kubectl apply -f frontend-deployment.yml
                  kubectl apply -f mysql-deployment.yml
-                 sleep 10
-                 kubectl get all
-
-                 sleep 10
+                 sleep 20
                  kubectl get all
 
                 '''
