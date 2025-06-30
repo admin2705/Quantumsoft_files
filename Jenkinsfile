@@ -52,6 +52,8 @@ pipeline {
                  sleep 20
                  kubectl get all
 
+                 echo "second update"
+
                  sleep 20
                  kubectl get all                 
 
