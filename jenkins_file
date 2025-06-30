@@ -55,8 +55,6 @@ pipeline {
                  sleep 10
                  kubectl get all
 
-                 sleep 10
-                 kubectl get all
                 '''
                 
                 }
